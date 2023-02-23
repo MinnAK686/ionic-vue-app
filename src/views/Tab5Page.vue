@@ -6,11 +6,11 @@
         <ion-content :fullscreen="true">
             <ion-header collapse="condense">
                 <ion-toolbar>
-                    <ion-title size="large">Tab 3</ion-title>
+                    <ion-title size="large">Tab 5</ion-title>
                 </ion-toolbar>
             </ion-header>
 
-            <SpaceTab />
+            <MessagesTab />
         </ion-content>
     </ion-page>
 </template>
@@ -24,5 +24,5 @@ import {
     IonContent,
 } from "@ionic/vue";
 import TopToolbar from "@/components/TopToolbar.vue";
-import SpaceTab from "@/components/SpaceTab.vue";
+import MessagesTab from "@/components/MessagesTab.vue";
 </script>
